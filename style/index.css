@@ -2,4 +2,21 @@
    margin: 0%;
    padding: 0%;
    box-sizing: border-box;
+   background-color: #0b0c10;
+}
+#box>#navbar{
+   width: 100%;
+   height: auto;
+   
+}
+#box>#navbar>div{
+   color: white;
+   grid-template: auto/repeat(6,auto);
+   justify-content: space-around;
+   align-items: center;
+}
+#box>#navbar>div>a{
+   color: white;
+   text-decoration: none;
+
 }
