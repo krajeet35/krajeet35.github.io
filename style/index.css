@@ -3,6 +3,8 @@
    padding: 0%;
    box-sizing: border-box;
    background-color: #0b0c10;
+   scroll-behavior: smooth;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #box>#navbar{
    width: 90%;
@@ -24,9 +26,10 @@
    
 }
 #box>#navbar>div:hover{
-   color: blue;
-   cursor: pointer;
-   
+   color: blue;   
+}
+#box>#navbar>div>a:hover{
+   color: blue;   
 }
 #box>#navbar>div>a{
    color: white;
