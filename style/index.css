@@ -5,16 +5,26 @@
    background-color: #0b0c10;
 }
 #box>#navbar{
-   width: 100%;
+   width: 90%;
    height: auto;
    display: grid;
    grid-template: auto/repeat(6,auto);
    justify-content: end;
-   gap: 20px;
+   gap: 30px;
+   margin: auto;
+   margin-top: 1%;
+  
    
 }
 #box>#navbar>div{
    color: white;
+   cursor: pointer;
+   font-size: large;
+
+   
+}
+#box>#navbar>div:hover{
+   color: blue;
    cursor: pointer;
    
 }
