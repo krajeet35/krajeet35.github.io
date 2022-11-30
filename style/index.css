@@ -7,13 +7,16 @@
 #box>#navbar{
    width: 100%;
    height: auto;
+   display: grid;
+   grid-template: auto/repeat(6,auto);
+   justify-content: end;
+   gap: 20px;
    
 }
 #box>#navbar>div{
    color: white;
-   grid-template: auto/repeat(6,auto);
-   justify-content: space-around;
-   align-items: center;
+   cursor: pointer;
+   
 }
 #box>#navbar>div>a{
    color: white;
