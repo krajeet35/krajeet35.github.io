@@ -214,9 +214,10 @@ background-color: blue;
    margin-bottom: 2%;
 }
 #contact1{
+   /* border: 1px solid; */
    width: 100%;
    height: auto;
-   margin: auto;
+   /* margin: auto; */
    display: grid;
    grid-template: auto/repeat(2,auto);
    justify-content: space-around;
@@ -224,6 +225,7 @@ background-color: blue;
 
 }
 #contact1>div:nth-child(1){
+   /* border: 1px solid; */
    width: 50%;
    height: auto;
    display: flex;
@@ -237,14 +239,44 @@ height: 15%;
 #contact1>div:nth-child(2){
    width: 100%;
    height: auto;
-   margin: auto;
+   margin-left: -60%;
 }
 #contact1>div:nth-child(2)>form{
-   /* width: 100%; */
-   height: auto;
+   width: 100%;
    display: grid;
    gap: 10px;
-   justify-content: center;
+   padding: 40px 60px 100px 60px;
+   background-color: white;
+   border-radius: 10px;
+}
+#contact1>div:nth-child(2)>form>input{
+   background-color: white;
+   padding: 10px 100px 10px 5px;
+   color: black;
+   border-radius: 15px;
+   border: none;
+   border-bottom: 1px solid;
+}
+#contact1>div:nth-child(2)>form>input:nth-child(4){
+   padding: 10px 100px 100px 5px;
+}
+#contact1>div:nth-child(2)>form>button{
+   border: none;
+   background-color: green;
+   padding: 20px 100px;
+   cursor: pointer;
+   font-size: large;
+}
+#contact1>div:nth-child(2)>form>button:hover{
+   background-color: blue;
+
+}
+#rights{
+   width: 100%;
+   height: auto;
+   text-align: center;
+   padding: 20px 0px;
+   margin-top: 3%;
 }
 
 
