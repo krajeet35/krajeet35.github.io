@@ -13,7 +13,7 @@
    position: fixed;
    display: grid;
    grid-template: auto/repeat(2,auto);
-   justify-content: space-between;
+   justify-content: space-around;
    align-items: baseline;
    gap: 30px;
    margin: auto;
@@ -325,6 +325,7 @@ margin-top: 20%;
    padding: 20px 100px;
    cursor: pointer;
    font-size: large;
+   border-radius: 10px;
 }
 #contact1>div>form>button:hover{
    background-color: blue;
