@@ -135,7 +135,7 @@ margin-top: 10%;
    margin-top: 2%;
    display: grid;
    grid-template: auto/repeat(7,auto);
-   justify-content: space-around;
+   justify-content: space-evenly;
    text-align: center;
    margin-bottom: 10%;
 }
@@ -282,8 +282,12 @@ height: 15%;
    border: none;
    border-bottom: 1px solid;
 }
-#contact1>div:nth-child(2)>form>input:nth-child(4){
-   padding: 10px 100px 100px 5px;
+#message{
+   background-color: white;
+   color: black;
+   border-radius: 10px;
+   border: none;
+   border-bottom: 1px solid;
 }
 #contact1>div:nth-child(2)>form>button{
    border: none;
