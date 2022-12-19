@@ -338,6 +338,732 @@ margin-top: 20%;
    margin-top: 3%;
 }
 
+@media  all and (min-width:768px) and (max-width:1023px){
+   *{
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+      background-color: #0b0c10;
+      scroll-behavior: smooth;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+   }
+   #box>#navbar{
+      width: 100%;
+      height: auto;
+      position: fixed;
+      display: grid;
+      grid-template: auto/repeat(2,auto);
+      justify-content: space-around;
+      align-items: baseline;
+      gap: 20px;
+      margin: auto;
+      padding: 10px 0px 30px 0px;
+      margin-top: -3%;
+         
+   }
+   #box>#navbar>div:first-child{
+      margin-left: 20px;
+   }
+   #box>#navbar>div:first-child>a{
+      cursor: pointer;
+      font-size: medium;
+      text-decoration: none;
+   }
+   #box>#navbar>div>a>h1:hover{
+      color: greenyellow;   
+   }
+   #box>#navbar>#navbar1{
+      display: grid;
+      grid-template: auto/repeat(5,auto);
+      gap: 20px;
+      margin-right: 50px;
+   }
+   #box>#navbar>#navbar1>div>a{
+      text-decoration: none;
+        
+   }
+   #box>#navbar>#navbar1>div>a:hover{
+      color: blue;
+        
+   }
+   #box>#navbar>#navbar1>div{
+      cursor: pointer;
+   }
+   #box>#navbar>#navbar1>div:hover{
+      color: blue;
+        
+   }
+   #about>#intro{
+      width: 100%;
+      height: auto;
+      margin: auto;
+      display: grid;
+      grid-template: auto/repeat(2,auto);
+      margin-top: 20px;
+      justify-content: space-around;
+      margin-bottom: 20px;
+   }
+   
+   #about>#intro>div:first-child{
+      width: 50%;
+      height: auto;
+      margin: auto;
+      margin-top: 40%;
+      
+   }
+   #about>#intro>div:first-child>h1:first-child{
+      margin-left: 65px;
+      font-size: large;
+   }
+   #about>#intro>div:first-child>h1:nth-child(2){
+      margin-left: 25px;
+      font-size: large;
+   }
+   #about>#intro>div:first-child>h1:nth-child(3){
+      margin-left: 5px;
+      font-size: large;
+   }
+   #contact2{
+      /* border: 1px solid; */
+      width: 50%;
+      height: auto;
+      margin: auto;
+      display: flex;
+      gap: 20px;
+      justify-content: space-evenly;
+      margin-top: 10px;
+      margin-left: 15%;
+   }
+   #contact2>div>a>img{
+   width: 100%;
+   height: auto;
+   }
+   #contact2>div:nth-child(2)>a>img{
+   width: 50%;
+   height: auto;
+   }
+   #contact2>div:nth-child(3)>a>img{
+   width: 400%;
+   height: 100%;
+   margin-left: -350%;
+   margin-top: -40%;
+   }
+   #about>#intro>div:last-child{
+   width: 80%;
+   height: auto;
+   margin: auto;
+   }
+   #about>#intro>div:last-child>img{
+   width: 100%;
+   cursor: pointer;
+   border-radius: 30px;
+   margin-top: 30%;
+   }
+   #myservice{
+      width: 98%;
+      height: auto;
+      margin: auto;
+      padding: 10px;
+      margin-top: 3%;
+      margin-bottom: 2%;
+      text-align: center;
+   }
+   #myservice>h1{
+      background-color: gray;
+      border-radius: 10px;
+      padding: 10px 0px 10px 0px;
+   }
+   #about>#service{
+      width: 100%;
+      height: auto;
+      /* margin: auto; */
+      display: grid;
+      grid-template: auto/repeat(3,auto);
+      justify-content: space-around;
+      gap: 10px;
+      text-align: center;
+      /* background-color: grey; */
+      
+   }
+   #about>#service>div>p{
+      width: 50%;
+     margin: auto;
+     margin-top: 10px;
+   }
+   #about>#service>div>img{
+      width: 80%;
+      height: 50%;
+      border-radius: 20px;
+      margin-bottom: 10px;
+   }
+   #about>#service>div:nth-child(2)>img{
+      width: 120%;
+      margin-left: -10%;
+   }
+   
+   #skills>h1{
+      width: 98%;
+      margin: auto;
+      text-align: center;
+      background-color: gray;
+      border-radius: 10px;
+      padding: 10px 0px 10px 0px;
+   }
+   #myskill{
+      width: 100%;
+      height: auto;
+      margin: auto;
+      margin-top: 2%;
+      display: grid;
+      grid-template: auto/repeat(4,auto);
+      justify-content: space-evenly;
+      text-align: center;
+      margin-bottom: 5%;
+   }
+   #myskill>div{
+      /* border: 1px solid; */
+      width: 100%;
+      height: auto;
+   }
+   #myskill>div>img{
+      width: 100%;
+      height: 30%;
+   }
+   #myskill>div:nth-child(5)>img{
+      width: 35%;
+      height: 25%;
+      margin-top: 10px;
+   }
+   #myskill>div:nth-child(8)>img{
+      width: 40%;
+      height: 30%;
+      margin-top: 10px;
+   }
+   #myskill>div:nth-child(12)>img{
+      width: 30%;
+      height: 20%;
+      margin-top: 10px;
+   }
+   #myskill>div:nth-child(12)>h3{
+      width: 50%;
+      margin: auto;
+   }
+   #project>h1{
+         width: 98%;
+         margin: auto;
+         text-align: center;
+         background-color: gray;
+         border-radius: 10px;
+         padding: 10px 0px 10px 0px;
+         margin-bottom: 5%;
+   }
+   #project>#project1{
+      width: 100%;
+      height: auto;
+      margin: auto;
+      display: grid;
+      grid-template: auto/repeat(1,auto);
+      gap: 30px;
+      justify-content: space-around;
+      text-align: center;
+   }
+   #project>#project1>div{
+      width: 90%;
+      height: auto;
+      margin: auto;
+   }
+   #project1>div>img{
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+   }
+   .project2{
+      width: 100%;
+      height: auto;
+      margin: auto;
+   }
+   .project2>div>img{
+      width: 10%;
+      height: auto;
+   }
+   .project2>div>a>img{
+      width: 20%;
+      height: auto;
+   }
+   .project2>div:nth-child(2){
+      width: 100%;
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      margin-left: -10%;
+   }
+   .project2>div>button>a{
+      text-decoration: none;
+      background-color: green;
+      padding: 10px 20px;
+      border-radius: 5px;
+   }
+   .project2>div>button>a:hover{
+      background-color: blue;
+   }
+   #box>#moreproject{
+      width: 20%;
+      height: auto;
+      margin: auto;
+     background-color: green;
+     padding: 10px 20px;
+     margin-top: 5%;
+     border-radius: 10px;
+     text-align: center;
+   }
+   #box>#moreproject>a{
+      background-color: green;
+      text-decoration: none;
+   }
+   #contact>h1{
+      width: 98%;
+      margin: auto;
+      text-align: center;
+      background-color: gray;
+      border-radius: 10px;
+      padding: 10px 0px 10px 0px;
+      margin-top: 5%;
+      margin-bottom: 2%;
+   }
+   #contact1{
+      /* border: 1px solid; */
+      width: 100%;
+      height: auto;
+      margin: auto;
+      /* display: grid;
+      grid-template: auto/repeat(2,auto);*/
+      justify-content: space-around;
+      text-align: center;
+   
+   }
+   
+   #contact1>div{
+      width: 50%;
+      height: auto;
+      margin: auto;
+      /* margin-left: -60%; */
+   }
+   #contact1>div>form{
+      width: 100%;
+      display: grid;
+      gap: 10px;
+      padding: 40px 60px 100px 60px;
+      background-color: white;
+      border-radius: 10px;
+   }
+   #contact1>div>form>input{
+      background-color: white;
+      padding: 10px 100px 10px 5px;
+      color: black;
+      border-radius: 15px;
+      border: none;
+      border-bottom: 1px solid;
+   }
+   #message{
+      background-color: white;
+      color: black;
+      border-radius: 10px;
+      border: none;
+      border-bottom: 1px solid;
+   }
+   #contact1>div>form>button{
+      border: none;
+      background-color: green;
+      padding: 20px 100px;
+      cursor: pointer;
+      font-size: large;
+   }
+   #contact1>div>form>button:hover{
+      background-color: blue;
+   
+   }
+   #rights{
+      width: 100%;
+      height: auto;
+      text-align: center;
+      padding: 20px 0px;
+      margin-top: 3%;
+   }
+}
+@media  all and (min-width:340px) and (max-width:767px){
+   *{
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+      background-color: #0b0c10;
+      scroll-behavior: smooth;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+   }
+   #box{
+      width: 100%;
+      height: auto;
+      margin: auto;
+   }
+   #box>#navbar{
+      width: 100%;
+      height: auto;
+      position: fixed;
+      display: grid;
+      grid-template: auto/repeat(2,auto);
+      /* justify-content: space-around; */
+      align-items: baseline;
+      gap: 20px;
+      margin: auto;
+      padding: 10px 0px 10px 0px;
+      margin-top: -5%;
+         
+   }
+   #box>#navbar>div:first-child{
+      margin-left: 5px;
+   }
+   #box>#navbar>div:first-child>a{
+      cursor: pointer;
+      font-size: 7px;
+      text-decoration: none;
+   }
+   #box>#navbar>div>a>h1:hover{
+      color: greenyellow;   
+   }
+   #box>#navbar>#navbar1{
+      display: grid;
+      grid-template: auto/repeat(5,auto);
+      gap: 8px;
+      margin: auto;
+      margin-right: 7px;
+   }
+   #box>#navbar>#navbar1>div>a{
+      text-decoration: none;
+        
+   }
+   #box>#navbar>#navbar1>div>a:hover{
+      color: blue;
+        
+   }
+   #box>#navbar>#navbar1>div{
+      cursor: pointer;
+   }
+   #box>#navbar>#navbar1>div:hover{
+      color: blue;
+        
+   }
+   #about>#intro{
+      width: 100%;
+      height: auto;
+      margin: auto;
+      display: grid;
+      grid-template: auto/repeat(1,auto);
+      margin-top: 20px;
+      justify-content: center;
+      margin-bottom: 20px;
+      text-align: center;
+   }
+   
+   #about>#intro>div:first-child{
+      width: 100%;
+      height: auto;
+      margin: auto;
+      margin-top: 15%;
+      
+   }
+   #about>#intro>div:first-child>h1:first-child{
+      margin-left: 65px;
+      font-size: large;
+   }
+   #about>#intro>div:first-child>h1:nth-child(2){
+      margin-left: 40px;
+      font-size: large;
+   }
+   #about>#intro>div:first-child>h1:nth-child(3){
+      margin-left: 40px;
+      font-size: large;
+   }
+   #contact2{
+      /* border: 1px solid; */
+      width: 50%;
+      height: auto;
+      margin: auto;
+      display: flex;
+      gap: 20px;
+      /* justify-content: center; */
+      margin-top: 10px;
+      margin-left: 33%;
+   }
+   #contact2>div>a>img{
+   width: 100%;
+   height: auto;
+   margin-right: 100%;
+   }
+   #contact2>div:nth-child(2)>a>img{
+   width: 50%;
+   height: auto;
+   }
+   #contact2>div:nth-child(3)>a>img{
+   width: 400%;
+   height: 100%;
+   margin-left: -350%;
+   margin-top: -40%;
+   }
+   #about>#intro>div:last-child{
+   width: 90%;
+   height: auto;
+   margin: auto;
+   }
+   #about>#intro>div:last-child>img{
+   width: 100%;
+   cursor: pointer;
+   border-radius: 20px;
+   margin-top: 10%;
+   margin-left: 10%;
+   }
+   #myservice{
+      width: 98%;
+      height: auto;
+      margin: auto;
+      padding: 10px;
+      margin-top: 3%;
+      margin-bottom: 2%;
+      text-align: center;
+      margin-left: 10%;
+   }
+   #myservice>h1{
+      background-color: gray;
+      border-radius: 10px;
+      padding: 10px 0px 10px 0px;
+   }
+   #about>#service{
+      width: 100%;
+      height: auto;
+      margin: auto;
+      display: grid;
+      grid-template: auto/repeat(1,auto);
+      justify-content: space-around;
+      gap: 0px;
+      text-align: center;
+      margin-left: 10%;
+      
+   }
+   #about>#service>div>p{
+      width: 50%;
+     margin: auto;
+     margin-top: 10px;
+   }
+   #about>#service>div>img{
+      width: 80%;
+      height: 50%;
+      margin: auto;
+      border-radius: 20px;
+      margin-bottom: 10px;
+   }
+   #about>#service>div:nth-child(2)>img{
+      width: 80%;
+      margin-left: 1%;
+   }
+   
+   #skills>h1{
+      width: 98%;
+      margin: auto;
+      text-align: center;
+      background-color: gray;
+      border-radius: 10px;
+      padding: 10px 0px 10px 0px;
+      margin-left: 10%;
+   }
+   #myskill{
+      width: 100%;
+      height: auto;
+      margin: auto;
+      margin-top: 2%;
+      display: grid;
+      grid-template: auto/repeat(2,auto);
+      justify-content: space-around;
+      text-align: center;
+      margin-left: 13%;
+      margin-bottom: 70%; 
+   }
+   #myskill>div{
+      /* border: 1px solid; */
+      width: 100%;
+      height: auto;
+   }
+   #myskill>div>img{
+      width: 100%;
+      height: 30%;
+   }
+   #myskill>div:nth-child(5)>img{
+      width: 35%;
+      height: 25%;
+      margin-top: 10px;
+   }
+   #myskill>div:nth-child(8)>img{
+      width: 40%;
+      height: 30%;
+      margin-top: 10px;
+   }
+   #myskill>div:nth-child(12)>img{
+      width: 30%;
+      height: 20%;
+      margin-top: 10px;
+   }
+   #myskill>div:nth-child(12)>h3{
+      width: 50%;
+      margin: auto;
+   }
+   #project>h1{
+         width: 98%;
+         margin: auto;
+         text-align: center;
+         background-color: gray;
+         border-radius: 10px;
+         padding: 10px 0px 10px 0px;
+         margin-bottom: 5%;
+         margin-left: 10%;
+   }
+   #project>#project1{
+      width: 100%;
+      height: auto;
+      margin: auto;
+      display: grid;
+      grid-template: auto/repeat(1,auto);
+      gap: 30px;
+      justify-content: space-around;
+      text-align: center;
+   }
+   #project>#project1>div{
+      width: 90%;
+      height: auto;
+      margin: auto;
+      margin-left: 15%;
+   }
+   #project1>div>img{
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+   }
+   .project2{
+      width: 100%;
+      height: auto;
+      margin: auto;
+   }
+   .project2>div>img{
+      width: 10%;
+      height: auto;
+   }
+   .project2>div>a>img{
+      width: 20%;
+      height: auto;
+   }
+   .project2>div:nth-child(2){
+      width: 100%;
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      margin-left: -10%;
+   }
+   .project2>div>button>a{
+      text-decoration: none;
+      background-color: green;
+      padding: 10px 20px;
+      border-radius: 5px;
+   }
+   .project2>div>button>a:hover{
+      background-color: blue;
+   }
+   #box>#moreproject{
+      width: 50%;
+      height: auto;
+      margin: auto;
+     background-color: green;
+     padding: 10px 20px;
+     margin-top: 10%;
+     border-radius: 10px;
+     text-align: center;
+     margin-left: 35%;
+   }
+   #box>#moreproject>a{
+      background-color: green;
+      text-decoration: none;
+   }
+   #contact>h1{
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      background-color: gray;
+      border-radius: 10px;
+      padding: 10px 0px 10px 0px;
+      margin-top: 5%;
+      margin-bottom: 2%;
+      margin-left: 7%;
+   }
+   #contact1{
+      /* border: 1px solid; */
+      width: 100%;
+      height: auto;
+      margin: auto;
+      /* display: grid;
+      grid-template: auto/repeat(2,auto);*/
+      /* justify-content: space-around; */
+      text-align: center;
+   
+   }
+   
+   #contact1>div{
+      width: 100%;
+      height: auto;
+      margin: auto;
+      margin-left: 7%;
+   }
+   #contact1>div>form{
+      width: 100%;
+      display: grid;
+      gap: 10px;
+      padding: 40px 60px 100px 40px;
+      background-color: white;
+      border-radius: 10px;
+   }
+   #contact1>div>form>input{
+      background-color: white;
+      padding: 10px 100px 10px 5px;
+      color: black;
+      border-radius: 15px;
+      border: none;
+      border-bottom: 1px solid;
+   }
+   #message{
+      background-color: white;
+      color: black;
+      border-radius: 10px;
+      border: none;
+      border-bottom: 1px solid;
+   }
+   #contact1>div>form>button{
+      border: none;
+      background-color: green;
+      padding: 20px 100px;
+      cursor: pointer;
+      font-size: large;
+      border-radius: 10px;
+   }
+   #contact1>div>form>button:hover{
+      background-color: blue;
+   
+   }
+   #rights{
+      width: 100%;
+      height: auto;
+      margin: auto;
+      text-align: center;
+      padding: 20px 0px;
+      margin-top: 3%;
+      margin-left: 5%;
+   }
+}
 
 
 
