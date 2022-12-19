@@ -178,10 +178,13 @@
             </div>
             <div>
                 <form action="https://formsubmit.co/1e03e733706faa8d569cadceb61bd8ac" method="POST">
-                    <input type="text" placeholder="Name" required>
-                    <input type="email" placeholder="Email" required>
-                    <input type="number" placeholder="Contact No" >
-                    <textarea id="message" placeholder="Message" cols="30" rows="10" ></textarea>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="number" name="number" placeholder="Contact No" >
+                    <input type="hidden" name="_next" value="https://krajeet35.github.io/thankyou.html">
+                    <textarea id="message" name="message" placeholder="Message" cols="30" rows="10" ></textarea>
+                    
                     <button id="btn">Submit</button>
                 </form>
             </div>

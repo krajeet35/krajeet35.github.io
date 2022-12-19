@@ -137,7 +137,7 @@ margin-top: 10%;
    grid-template: auto/repeat(7,auto);
    justify-content: space-evenly;
    text-align: center;
-   margin-bottom: 10%;
+   margin-bottom: 5%;
 }
 #myskill>div{
    /* border: 1px solid; */
@@ -174,7 +174,6 @@ margin-top: 10%;
       background-color: gray;
       border-radius: 10px;
       padding: 10px 0px 10px 0px;
-      margin-top: 15%;
       margin-bottom: 5%;
 }
 #project1{

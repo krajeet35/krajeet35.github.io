@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(223, 114, 244);
+    font-family: sans-serif;
+}
+#box{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+#box>a{
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: blue;
+}
