@@ -131,7 +131,7 @@ margin-top: 20%;
 #about>#service{
    width: 100%;
    height: auto;
-   /* margin: auto; */
+   margin: auto;
    display: grid;
    grid-template: auto/repeat(3,auto);
    justify-content: space-around;
@@ -146,15 +146,16 @@ margin-top: 20%;
   margin-top: 10px;
 }
 #about>#service>div>img{
-   width: 80%;
+   width: 90%;
    height: 50%;
    border-radius: 20px;
    margin-bottom: 10px;
 }
 #about>#service>div:nth-child(2)>img{
-   width: 120%;
-   margin-left: -10%;
+   width: 100%;
+   margin-left: 0%;
 }
+
 
 #skills>h1{
    width: 98%;
