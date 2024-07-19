@@ -34,7 +34,7 @@
 }
 #box>#navbar>#navbar1{
    display: grid;
-   grid-template: auto/repeat(5,auto);
+   grid-template: auto/repeat(6,auto);
    gap: 20px;
    margin-right: 100px;
 }
@@ -377,7 +377,7 @@ margin-top: 20%;
    }
    #box>#navbar>#navbar1{
       display: grid;
-      grid-template: auto/repeat(5,auto);
+      grid-template: auto/repeat(6,auto);
       gap: 20px;
       margin-right: 50px;
    }
@@ -735,7 +735,7 @@ margin-top: 20%;
    }
    #box>#navbar>#navbar1{
       display: grid;
-      grid-template: auto/repeat(5,auto);
+      grid-template: auto/repeat(6,auto);
       gap: 8px;
       margin: auto;
       margin-right: 7px;
