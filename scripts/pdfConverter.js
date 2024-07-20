@@ -131,7 +131,7 @@ image.onchange=function(){
         alert("Image size is too small.")
         this.value=""
     }
-    else if(fileSize>300){
+    else if(fileSize>1200){
         alert("Image size is too big.")
         this.value=""
     }
