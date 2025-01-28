@@ -53,6 +53,11 @@
    color: blue;
      
 }
+#RiverdaleSelector{
+   border: none;
+   font-size: medium;
+   width: 70%;
+}
 
 #myservice{
    width: 98%;
@@ -108,13 +113,13 @@ width: 100%;
 height: auto;
 }
 #contact2>div:nth-child(2)>a>img{
-width: 50%;
+width: 90%;
 height: auto;
 }
 #contact2>div:nth-child(3)>a>img{
 width: 400%;
 height: 100%;
-margin-left: -350%;
+margin-left: -100%;
 margin-top: -40%;
 }
 #about>#intro>div:last-child{
@@ -396,6 +401,11 @@ margin-top: 20%;
       color: blue;
         
    }
+   #RiverdaleSelector{
+      border: none;
+      font-size: medium;
+      width: 80%;
+   }
    #about>#intro{
       width: 100%;
       height: auto;
@@ -442,13 +452,13 @@ margin-top: 20%;
    height: auto;
    }
    #contact2>div:nth-child(2)>a>img{
-   width: 50%;
+   width: 90%;
    height: auto;
    }
    #contact2>div:nth-child(3)>a>img{
    width: 400%;
    height: 100%;
-   margin-left: -350%;
+   margin-left: -100%;
    margin-top: -40%;
    }
    #about>#intro>div:last-child{
@@ -734,6 +744,7 @@ margin-top: 20%;
       color: greenyellow;   
    }
    #box>#navbar>#navbar1{
+      width: 100%;
       display: grid;
       grid-template: auto/repeat(6,auto);
       gap: 8px;
@@ -755,6 +766,11 @@ margin-top: 20%;
       color: blue;
         
    }
+   #RiverdaleSelector{
+      border: none;
+      width: 80%;
+   }
+
    #about>#intro{
       width: 100%;
       height: auto;
@@ -803,13 +819,13 @@ margin-top: 20%;
    margin-right: 100%;
    }
    #contact2>div:nth-child(2)>a>img{
-   width: 50%;
+   width: 90%;
    height: auto;
    }
    #contact2>div:nth-child(3)>a>img{
    width: 400%;
    height: 100%;
-   margin-left: -350%;
+   margin-left: -100%;
    margin-top: -40%;
    }
    #about>#intro>div:last-child{
