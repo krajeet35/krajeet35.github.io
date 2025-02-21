@@ -13,7 +13,7 @@ document.querySelector("#submit").addEventListener("click", function(){
     let fatherName=document.querySelector("#fatherName").value;    
     let classEnroll=document.querySelector("#class").value    
     let upload=document.querySelector("#upload").value;
-   
+    // Validating the required fields
     if(getDate=="" || rollNo=="" || name=="" || fatherName=="" || classEnroll=="Select Class" || upload==""){
         alert("Please fill the required fields");
         return false
