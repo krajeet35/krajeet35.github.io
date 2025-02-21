@@ -53,48 +53,48 @@ document.querySelector("#submit").addEventListener("click", function(){
 
         pdf.setFontSize(14);
         pdf.setLineHeightFactor(1.5);
-        let body = `Date: ${getDate}\nStudent Name: ${name}\nFather's Name: ${fatherName}\nClass: ${classEnroll}\nShift-I: 9:00 -10:00 AM\nShift-II: 10:00 -11:00 AM`;
+        let body = `Date: ${getDate}\nRoll No.: ${rollNo}\nStudent Name: ${name}\nFather's Name: ${fatherName}\nClass: ${classEnroll}\nShift-I: 9:00 -10:00 AM\nShift-II: 10:00 -11:00 AM`;
         pdf.text(body, 10, 50);
-        let yCordinate=90;
+        let yCordinate=100;
         let xCordinate=10;
         if(classEnroll == "Play" || classEnroll == "Nursery" || classEnroll == "LKG" || classEnroll == "UKG"){
             let headers=['Date', 'Day', 'Shift-I', 'Shift-II']
             let data1=[['24-02-2025','Monday','Hindi','English'],['25-02-2025','Tuesday','Mathematics','Drawing'],['27-02-2025','Thursday','Music','']]
             headers.forEach(header => {
-                pdf.rect(xCordinate,yCordinate,40,10)
+                pdf.rect(xCordinate,yCordinate,40,8)
                 pdf.text(header, xCordinate+2, yCordinate+5);
                 xCordinate+=40
             });
             xCordinate=10;
-            yCordinate=100
+            yCordinate=108
             data1.forEach(row=>{
                 row.forEach(cell=>{
-                    pdf.rect(xCordinate,yCordinate,40,10)
+                    pdf.rect(xCordinate,yCordinate,40,8)
                     pdf.text(cell, xCordinate+2,yCordinate+5)
                     xCordinate+=40;
                 })
                 xCordinate=10;
-                yCordinate+=10
+                yCordinate+=8
             })
         }
         else{
             let headers=['Date', 'Day', 'Shift-I', 'Shift-II']
             let data1=[['24-02-2025','Monday','Hindi','Sanskrit'],['25-02-2025','Tuesday','English','Mathematics'],['27-02-2025','Thursday','Science','S.S.T.'],['28-02-2025','Friday','G.K.','Computer']]
             headers.forEach(header => {
-                pdf.rect(xCordinate,yCordinate,40,10)
+                pdf.rect(xCordinate,yCordinate,40,8)
                 pdf.text(header, xCordinate+2, yCordinate+5);
                 xCordinate+=40
             });
             xCordinate=10;
-            yCordinate=100
+            yCordinate=108
             data1.forEach(row=>{
                 row.forEach(cell=>{
-                    pdf.rect(xCordinate,yCordinate,40,10)
+                    pdf.rect(xCordinate,yCordinate,40,8)
                     pdf.text(cell, xCordinate+2,yCordinate+5)
                     xCordinate+=40;
                 })
                 xCordinate=10;
-                yCordinate+=10
+                yCordinate+=8
             })
         }
 
